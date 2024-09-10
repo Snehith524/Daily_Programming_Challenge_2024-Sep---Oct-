@@ -24,8 +24,8 @@ public class MissingInteger {
         int[] arr4 = {1};
         System.out.println("Missing number: " + findMissingInteger(arr4)); 
 
-        int[] arr5 = new int[9];
-        for (int i = 0; i < 9; i++) {
+        int[] arr5 = new int[8];
+        for (int i = 0; i < 8; i++) {
             arr5[i] = i + 1;
         }
         System.out.println("Missing number: " + findMissingInteger(arr5)); 
