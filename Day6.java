@@ -32,6 +32,7 @@ public class ZeroSumSubarrays {
 
         for (int[] indices : result) {
             System.out.println("Subarray with sum 0: [" + indices[0] + ", " + indices[1] + "]");
+    
         }
     }
 }
