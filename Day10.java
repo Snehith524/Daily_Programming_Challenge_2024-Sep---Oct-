@@ -26,7 +26,7 @@ public class GroupAnagrams {
 
         for (List<String> list : result) {
             System.out.println("Anagrams: " + list);
-            System.out.println("Explanation: These strings are anagrams of each other because they contain the same characters in a different order.");
+            System.out.println("These strings are anagrams of each other because they contain the same characters in a different order.");
             System.out.println();
         }
     }
