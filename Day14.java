@@ -31,7 +31,7 @@ public class SubstringCounter {
     public static void main(String[] args) {
         SubstringCounter counter = new SubstringCounter();
         String s = "pqpqs";
-        int k = 2;
+        int k = 3;
 
         int count = counter.countSubstringsWithExactlyKDistinctChars(s, k);
         System.out.println("Number of substrings with exactly " + k + " distinct characters: " + count);
